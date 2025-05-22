@@ -14,7 +14,7 @@ services:
     image: grafana/grafana
     container_name: grafana
     ports:
-      - "3003:3003"
+      - "3003:3000"
     volumes:
       - grafana-storage:/var/lib/grafana
     restart: unless-stopped
